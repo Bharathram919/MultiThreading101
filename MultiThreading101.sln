@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLUncaughtExceptionInWinFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLCancellingTasks", "TPLCancellingTasks\TPLCancellingTasks.csproj", "{5F691CD6-AAAC-459B-96E2-788FB6C65B45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLSynchronizationContextInWinForms", "TPLSynchronizationContextInWinForms\TPLSynchronizationContextInWinForms.csproj", "{51BD95EE-09FC-4BB4-84C5-CB1E483EEB24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BD95EE-09FC-4BB4-84C5-CB1E483EEB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BD95EE-09FC-4BB4-84C5-CB1E483EEB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BD95EE-09FC-4BB4-84C5-CB1E483EEB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BD95EE-09FC-4BB4-84C5-CB1E483EEB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
