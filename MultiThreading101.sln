@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleApplication", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksParallelLibrary101", "TasksParallelLibrary101\TasksParallelLibrary101.csproj", "{1057D601-72D2-4E82-BDB1-CDE39B138BC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLThreadsVsTasks", "ThreadsVsTasks\TPLThreadsVsTasks.csproj", "{9A172EA8-E454-48AD-AB50-CDF536E9C49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLCreatingTasks", "CreatingTasks\TPLCreatingTasks.csproj", "{BDAB6431-603A-42F0-9AE6-A7CF594B24BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLUncaughtExceptionInWinForms", "TPLUncaughtExceptionInWinForms\TPLUncaughtExceptionInWinForms.csproj", "{EA52326A-21BD-44A9-A4FD-884B1128139B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{1057D601-72D2-4E82-BDB1-CDE39B138BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1057D601-72D2-4E82-BDB1-CDE39B138BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1057D601-72D2-4E82-BDB1-CDE39B138BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A172EA8-E454-48AD-AB50-CDF536E9C49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A172EA8-E454-48AD-AB50-CDF536E9C49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A172EA8-E454-48AD-AB50-CDF536E9C49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A172EA8-E454-48AD-AB50-CDF536E9C49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAB6431-603A-42F0-9AE6-A7CF594B24BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAB6431-603A-42F0-9AE6-A7CF594B24BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAB6431-603A-42F0-9AE6-A7CF594B24BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAB6431-603A-42F0-9AE6-A7CF594B24BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
