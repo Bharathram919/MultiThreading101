@@ -56,5 +56,46 @@ namespace TPLUncaughtExceptionInWinForms
             }
             //taskWithFactoryAndState.Dispose();
         }
+
+        private void btnHandleException_Click(object sender, EventArgs e)
+        {
+            Task<List<int>> taskWithFactoryAndState = Task.Factory.StartNew<List<int>>((stateObj) =>
+            {
+                List<int> ints = new List<int>();
+                for(int i=0; i< (int)stateObj; i++)
+                {
+                    ints.Add(i);
+                    if(i<100)
+                    {
+                        InvalidOperationException ex = new InvalidOperationException("Oooops!!!!");
+                        ex.Source = "taskWithFactoryAndState";
+                        throw ex;
+                    }
+                }
+                return ints;
+            }, 2000);
+
+            try {
+                taskWithFactoryAndState.Wait();
+                if(!taskWithFactoryAndState.IsFaulted)
+                {
+                    MessageBox.Show("Task Ended With {0} results", taskWithFactoryAndState.Result.Count.ToString());
+                }
+            }
+            catch(AggregateException ex)
+            {
+                ex.Handle(HandleException);
+            }
+            finally
+            {
+                taskWithFactoryAndState.Dispose();
+            }
+        }
+
+        private bool HandleException(Exception arg)
+        {
+            MessageBox.Show(arg.Message);
+            return true;
+        }
     }
 }

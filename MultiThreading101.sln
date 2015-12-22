@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadedApplication101
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleApplication", "BasicConsoleApplication\BasicConsoleApplication.csproj", "{26335E4F-BA8E-4016-A2A2-1E2F2C693EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksParallelLibrary101", "TasksParallelLibrary101\TasksParallelLibrary101.csproj", "{1057D601-72D2-4E82-BDB1-CDE39B138BC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL101", "TasksParallelLibrary101\TPL101.csproj", "{1057D601-72D2-4E82-BDB1-CDE39B138BC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLThreadsVsTasks", "ThreadsVsTasks\TPLThreadsVsTasks.csproj", "{9A172EA8-E454-48AD-AB50-CDF536E9C49C}"
 EndProject
