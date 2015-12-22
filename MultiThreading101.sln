@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLCreatingTasks", "Creatin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLUncaughtExceptionInWinForms", "TPLUncaughtExceptionInWinForms\TPLUncaughtExceptionInWinForms.csproj", "{EA52326A-21BD-44A9-A4FD-884B1128139B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLCancellingTasks", "TPLCancellingTasks\TPLCancellingTasks.csproj", "{5F691CD6-AAAC-459B-96E2-788FB6C65B45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA52326A-21BD-44A9-A4FD-884B1128139B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F691CD6-AAAC-459B-96E2-788FB6C65B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
